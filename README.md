@@ -1,5 +1,5 @@
 # Producer-consumer architecture #
-![Python Tests](https://github.com/Maokx1/Producer-Consumer/actions/workflows/tests.yml/badge.svg?event=push)
+![Python Tests](https://github.com/Maokx1/Producer-Consumer/actions/workflows/tests.yml/badge.svg)
 
 The project is an implementation of the Producer-Consumer architecture. 
 The producer takes data from the source and appends it to **A queue**. 
