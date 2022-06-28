@@ -10,6 +10,7 @@ Example results can be found in the [sample folder](https://github.com/Maokx1/Pr
 
 ## [Requirements](https://github.com/Maokx1/Producer-Consumer/blob/main/requirements.txt) ##
 
+- Python >= 3.9
 - [numpy](https://pypi.org/project/numpy/)
 - [opencv-python](https://pypi.org/project/opencv-python/)
 - [pytest](https://pypi.org/project/pytest/)
