@@ -52,12 +52,6 @@ def test_save_images_empty_path():
         save_images(queue=[np.zeros((10, 10, 2))])
 
 
-def test_save_images_no_directory():
-    save_images(queue=[np.zeros((10, 10, 3))], path='p')
-    assert os.path.exists('./p/0.png') is True
-    os.remove('./p/0.png')
-
-
 def test_save_images_empty_image():
     with pytest.raises(cv2.error):
         save_images(queue=[np.array([])], path='p')
