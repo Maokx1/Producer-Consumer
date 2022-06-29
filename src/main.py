@@ -15,6 +15,7 @@ def image_processing(p: Producer, c: Consumer, scale_percentage_: float, max_len
     :param c: A Consumer class instance.
     :param scale_percentage_: A percentage value of scaling. Image is being rescaled equally in height and width.
     :param max_length: Maximum queue size. It should be an unsigned integer.
+    :param ksize: Median filter kernel size. It should be an odd integer.
     :return: None
     """
 
